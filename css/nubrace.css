@@ -18,6 +18,10 @@ stitle {
     color: #272D2D;
 }
 
+@media screen and (max-width: 1676px) {
+    stitle {
+        font-size: 1.2em; } }
+
 
 .menubuttons {
     position: relative;
@@ -67,7 +71,7 @@ stitle {
 
 .picturebox {
     border-radius:.3em; 
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+ /*   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); */
 }
 
 
@@ -87,3 +91,89 @@ stitle {
       opacity: 0;
       transition: none;
   }
+
+  .fancyimage {
+      
+      background-image: url(../backgr.png); 
+      background-repeat: no-repeat;
+      background-size:;
+      
+     
+  }
+
+  @media screen and (max-width: 39.99875em) {
+    .fancyimage {
+        background-image: none ; 
+        background-repeat: ;
+        background-size:; } }
+
+  @media screen and (min-width: 40em) and (max-width: 63.99875em) {
+    .fancyimage {
+        background-image: none ; 
+        background-repeat: ;
+        background-size:; } }
+
+
+    .fancyimage2 {
+      
+            background-image: url(../backgr2.png); 
+            background-repeat: no-repeat;
+            width:100%;
+            
+           
+        }
+      
+        @media screen and (max-width: 39.99875em) {
+          .fancyimage2 {
+              background-image: none ; 
+              background-repeat: ;
+              background-size:; } }
+      
+        @media screen and (min-width: 40em) and (max-width: 63.99875em) {
+          .fancyimage2 {
+              background-image: none ; 
+              background-repeat: ;
+              background-size:; } }
+      
+
+
+        footer {
+            color: white;
+            font-size: .8em;
+            width: 100%;
+            font-family:'Nunito Sans';
+            background-color: #1A2F2F;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1em 1em 1em 1em;
+          }
+
+
+          @media screen and (max-width: 39.99875em) {
+            .button {
+            width: 100%;
+            justify-content: center;   
+            } }
+
+
+
+.centeringimage {
+    max-height: 49px; 
+    margin-bottom: 16px; 
+    margin-right: 32px;
+}
+
+
+            @media screen and (max-width: 39.99875em) {
+                .centeringimage {
+                align-items:center;
+                justify-content: center;   
+                } }
+
+
+.extratext {
+    text-align:center;
+}
+
+                
